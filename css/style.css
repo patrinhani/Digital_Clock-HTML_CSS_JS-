@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #00a3ff 0%,
+    #0992c5 22.19%,
+    #029cbc 46.15%,
+    #00c0cb 73.23%,
+    #00fff0 100%
+  );
+}
+
+.clock{
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clock div{
+    position: relative;
+    background: linear-gradient(180deg, #171A23 0%, rgba(23, 26, 35, 0) 71.68%);
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+    border-radius: 5px;
+   box-shadow: 0 15px 30px white;
+}
+.clock span{
+    font-weight: bolder;
+    font-size: 60px;
+    color: #171A23;
+}
